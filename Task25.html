@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JS, Academy, CodeCircle">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Task 25</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <p>Welcome to the student registration page. Please fill out the form below to register for your desired courses.</p>
+    <form>
+        <h2>Student Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        <h2>Course Selection</h2>
+        <label for="course">Please select the course you want to enroll in:</label><br>
+        <input type="checkbox" id="math" name="course" value="math">
+        <label for="math">course 1: Mathematics</label><br>
+        <input type="checkbox" id="science" name="course" value="science">
+        <label for="science">course 2: Science</label><br>
+        <input type="checkbox" id="history" name="course" value="history">
+        <label for="history">course 3: History</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form><br>
+    <h2>Available Courses</h2>
+    <table border="1" width="50%" style="text-align: center;">
+        <thead>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Instructor</th>
+            <th>Duration</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Mathematics</td>
+                <td>Dr. Smith</td>
+                <td>6 months</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Computer Science</td>
+                <td>Dr. Lee</td>
+                <td>6 months</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Physics</td>
+                <td>Dr. Johnson</td>
+                <td>6 months</td>
+            </tr>  
+        </tbody>
+    </table>      
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JS, Academy, CodeCircle">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <title>Task 24</title>
+    </head>
+    <body>
+        <h1>Simple Survey</h1>  
+        <fieldset>
+            <h2>Part 1: Basic Information</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email" required><br><br>
+                </div>
+            </form>
+        </fieldset>  
+        <br>
+        <fieldset>
+            <h2>Part 2: Preferences</h2>
+            <form>
+                <div>
+                    <label for="hobby">What is Your Favorite Hobby:</label>
+                    <input type="text" id="hobby" name="hobby" required placeholder="E.G. Reading"><br><br>
+                    <label>Do you like surveys?</label><br>
+                    <input type="radio" id="like_surveys_yes" name="like_surveys" value="yes" required>
+                    <label for="like_surveys_yes">Yes</label><br>
+                    <input type="radio" id="like_surveys_no" name="like_surveys" value="no" required>
+                    <label for="like_surveys_no">No</label><br><br>
+                    <label>Which topics are you interested in?(Check all that apply):</label><br>
+                    <input type="checkbox" id="topic_tech" name="topics" value="Technology">
+                    <label for="topic_tech">Technology</label><br>
+                    <input type="checkbox" id="topic_sports" name="topics" value="Sports">
+                    <label for="topic_sports">Sports</label><br>
+                    <input type="checkbox" id="topic_art" name="topics" value="Art">
+                    <label for="topic_art">Art</label><br>
+                </div>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Part 3: Comments</h2>
+            <form>
+                <div>
+                    <label for="comments">Any additional comments or suggestions:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments here..."></textarea><br><br>
+                    
+                </div>
+            </form>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </body>
+            
+</html>
